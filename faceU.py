@@ -3,7 +3,7 @@ import numpy as np
 cv2.namedWindow('test')
 cap = cv2.VideoCapture(0)
 success, frame = cap.read()
-color = (0, 0, 0)
+color = (255, 0, 0)
 classfier = cv2.CascadeClassifier('D:/PYcode/data/haarcascades/haarcascade_frontalface_alt.xml')
 while success:
     success, frame = cap.read()

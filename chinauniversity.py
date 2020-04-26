@@ -32,7 +32,7 @@ def printunivlist(ulist, num):
 
 def main(num):
     uinfo = []
-    url = 'http://www.zuihaodaxue.cn/shengyuanzhiliangpaiming2017.html'
+    url = 'http://www.zuihaodaxue.cn/shengyuanzhiliangpaiming2019.html'
     html = gethtmltext(url)
     fillunivlist(uinfo, html)
     printunivlist(uinfo, num)

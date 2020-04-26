@@ -24,4 +24,4 @@ while success:
     c = chr(key & 255)
     if c in ['q', 'Q', chr(27)]:
         break
-cv2.destroyWindow('test')
+cv2.destroyWindow('faceU')
